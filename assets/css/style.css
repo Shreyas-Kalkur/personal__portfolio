@@ -1288,11 +1288,13 @@ textarea.input {
 
     .work__container {
         grid-template-columns: 330px;
+
     }
 
     .portfolio__popup-inner {
         width: 420px;
         padding: 2.8rem 1.5rem 2.5rem;
+        margin: 2rem;
     }
 
     .portfolio__popup-content {
@@ -1346,17 +1348,19 @@ textarea.input {
     }
 
     .home__data {
-        padding: 0 4rem;
+        padding: 0 1.25rem;
     }
 
     .home__container {
         row-gap: 2rem;
+        margin-right: 0;
     }
 
     .home__social {
         left: initial;
         top: 0;
-        right: -1rem;
+        right: -2.5rem;
+        margin-right: 10px;
         flex-direction: column;
         row-gap: 3.5rem;
     }
@@ -1391,9 +1395,26 @@ textarea.input {
         grid-template-columns: 300px;
     }
 
-    .my__info {
-        display: none;
+    .work__card {
+        margin: 0 2rem;
     }
+
+    .button {
+        margin-top: 4rem;
+        padding: auto;
+
+    }
+
+    .my__info {
+        /* display: none; */
+        margin-bottom: 4rem;
+
+    }
+
+
+    /* .info__item {
+        grid-template-columns: repeat(2, 200px)
+    } */
 
 }
 
@@ -1404,8 +1425,20 @@ textarea.input {
         margin-right: var(--mb-1);
     }
 
+    .home__social {
+        left: initial;
+        top: 0;
+        right: -2.5rem;
+        flex-direction: column;
+        row-gap: 3.5rem;
+    }
+
+    .home__description {
+        margin-left: 0.2rem;
+    }
+
     .about__container {
-        margin-left: var(--mb-3);
+        margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
 
