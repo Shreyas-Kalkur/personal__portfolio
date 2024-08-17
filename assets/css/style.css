@@ -362,6 +362,14 @@ input {
     color: var(--text-color);
 }
 
+.info__subtitle {
+    cursor: pointer;
+}
+
+.info__subtitle:hover {
+    color: var(--skin-color);
+}
+
 .info__title {
     font-weight: var(--font-medium);
 }
