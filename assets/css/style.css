@@ -1259,13 +1259,17 @@ textarea.input {
         padding: .7rem .5rem;
     }
 
-    .about__data {
+    .about__heading {
         text-align: center;
     }
 
     .about__description {
         padding: 0 4rem;
-        text-align: center;
+        text-align: left;
+    }
+
+    .skillsets {
+        text-align: left;
     }
 
     .about__info {
