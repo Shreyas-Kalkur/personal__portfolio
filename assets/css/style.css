@@ -800,7 +800,7 @@ input {
 
 /*===== Services Section =====*/
 .services__container {
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(3, 250px);
     justify-content: center;
     column-gap: 1.8rem;
 }
@@ -1242,7 +1242,7 @@ textarea.input {
     }
 
     .services__container {
-        grid-template-columns: repeat(2, 220px);
+        grid-template-columns: repeat(3, 220px);
     }
 
     .portfolio__popup-inner {
